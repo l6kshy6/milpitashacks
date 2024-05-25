@@ -1,6 +1,6 @@
 const Drives = () => {
     return (
-      <div>Welcome Home</div>
+      <div>Welcome Drives</div>
     )
   }
   
