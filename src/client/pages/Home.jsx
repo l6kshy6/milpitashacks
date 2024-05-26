@@ -29,7 +29,6 @@ const Home = ({ user }) => {
         <div className="text-4xl">Drive a difference in your community.</div>
         <Link to={user ? "/create" : "/signup"} className="bg-black text-white p-4 rounded-3xl w-1/2 hover:bg-red-500 hover:text-black transition-all text-center">Start a drive</Link>
         <Link to="/drives" className="text-xs text-blue-600 hover:underline">or check out other drives in your area</Link>
-        <button onClick={testSend}>make hardcoded drive</button>
       </div>
       <div className="w-full">
         <img src={img} alt="" />
